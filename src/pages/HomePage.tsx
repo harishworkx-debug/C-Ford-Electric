@@ -37,6 +37,7 @@ import { CallButton } from '@/components/CallButton';
 import { CallCtaSection } from '@/components/CallCtaSection';
 import { SectionHeading } from '@/components/SectionHeading';
 import { FaqList } from '@/components/FaqList';
+import { ReviewsSection } from '@/components/ReviewsSection';
 
 const SERVICE_ICONS: Record<string, LucideIcon> = {
   'electrical-repair': Wrench,
@@ -206,8 +207,16 @@ export function HomePage() {
               <span className="inline-flex items-center gap-2">
                 <Clock className="h-4 w-4 text-gold-400" /> Mon–Fri: 8:00 AM – 5:30 PM
               </span>
+              <a href="#reviews" className="inline-flex items-center gap-2 text-white hover:text-gold-300 transition-colors">
+                <span className="flex text-amber-400">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-3.5 w-3.5 fill-amber-400" />
+                  ))}
+                </span>
+                <span className="font-semibold">5.0 (12 Reviews)</span>
+              </a>
               <span className="inline-flex items-center gap-2">
-                <Star className="h-4 w-4 text-gold-400" /> 2022 Inc. 5000 Honoree
+                <ShieldCheck className="h-4 w-4 text-gold-400" /> 2022 Inc. 5000 Honoree
               </span>
             </div>
           </div>
@@ -220,9 +229,9 @@ export function HomePage() {
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
             {[
               { icon: MapPin, label: 'Based in Oklahoma City', value: '6209 SE 74th St' },
-              { icon: Phone, label: 'Call us directly', value: SITE.phoneDisplay },
+              { icon: Star, label: '5.0 Star Rating', value: '12 Google Reviews' },
               { icon: HardHat, label: 'Serving', value: 'Residential · Commercial · Industrial' },
-              { icon: Star, label: 'Recognition', value: '2022 Inc. 5000 Honoree' },
+              { icon: ShieldCheck, label: 'Recognition', value: '2022 Inc. 5000 Honoree' },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-navy-50 text-gold-600">
@@ -393,7 +402,7 @@ export function HomePage() {
                 {LOCATIONS.map((l) => (
                   <Link
                     key={l.slug}
-                    to={`/service-areas/${l.slug}`}
+                    to={`/electrician-${l.slug}`}
                     className="group flex items-center justify-between rounded-xl border border-navy-100 bg-white px-5 py-4 shadow-card transition-all hover:border-gold-300 hover:shadow-cardHover"
                   >
                     <span className="flex items-center gap-3">
@@ -462,6 +471,9 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Customer Reviews */}
+      <ReviewsSection />
 
       {/* How it works */}
       <section className="bg-navy-900 py-20 sm:py-24">

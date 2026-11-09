@@ -11,6 +11,7 @@ import { FaqList } from '@/components/FaqList';
 import { CallButton } from '@/components/CallButton';
 import { CallCtaSection } from '@/components/CallCtaSection';
 import { SectionHeading } from '@/components/SectionHeading';
+import { ReviewsSection } from '@/components/ReviewsSection';
 
 export function LocationDetailPage({ slug }: { slug: string }) {
   const location = getLocation(slug);
@@ -30,12 +31,12 @@ export function LocationDetailPage({ slug }: { slug: string }) {
   const jsonLd = [
     {
       ...localBusinessJsonLd,
-      '@id': `${SITE.url}/${location.slug}#localbusiness`,
+      '@id': `${SITE.url}/electrician-${location.slug}#localbusiness`,
       areaServed: { '@type': 'City', name: location.city },
     },
     breadcrumbJsonLd([
       { name: 'Service Areas', href: '/service-areas' },
-      { name: `${location.city}, ${location.state}`, href: `/service-areas/${location.slug}` },
+      { name: `${location.city}, ${location.state}`, href: `/electrician-${location.slug}` },
     ]),
     faqJsonLd(location.faqs),
   ];
@@ -43,14 +44,14 @@ export function LocationDetailPage({ slug }: { slug: string }) {
   useSeo({
     title: location.metaTitle,
     description: location.metaDescription,
-    path: `/service-areas/${location.slug}`,
+    path: `/electrician-${location.slug}`,
     image: IMAGES.outdoorPanel,
     jsonLd,
   });
 
   const crumbs = [
     { name: 'Service Areas', href: '/service-areas' },
-    { name: `${location.city}, ${location.state}`, href: `/service-areas/${location.slug}` },
+    { name: `${location.city}, ${location.state}`, href: `/electrician-${location.slug}` },
   ];
 
   return (
@@ -134,7 +135,7 @@ export function LocationDetailPage({ slug }: { slug: string }) {
                     {LOCATIONS.filter((l) => l.slug !== location.slug).map((l) => (
                       <li key={l.slug}>
                         <Link
-                          to={`/service-areas/${l.slug}`}
+                          to={`/electrician-${l.slug}`}
                           className="group flex items-center justify-between text-sm text-navy-700 hover:text-gold-600"
                         >
                           <span>{l.city}, {l.state}</span>
@@ -149,6 +150,9 @@ export function LocationDetailPage({ slug }: { slug: string }) {
           </div>
         </div>
       </section>
+
+      {/* Customer Reviews */}
+      <ReviewsSection limit={3} />
 
       <CallCtaSection
         heading={`Need an electrician in ${location.city}, ${location.state}?`}

@@ -52,7 +52,7 @@ export function ServiceAreasOverviewPage() {
                 {LOCATIONS.map((l) => (
                   <Link
                     key={l.slug}
-                    to={`/service-areas/${l.slug}`}
+                    to={`/electrician-${l.slug}`}
                     className="group flex items-center justify-between rounded-xl border border-navy-100 bg-white px-5 py-4 shadow-card transition-all hover:border-gold-300 hover:shadow-cardHover"
                   >
                     <span className="flex items-center gap-3">

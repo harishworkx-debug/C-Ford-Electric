@@ -1,6 +1,7 @@
 import { SITE } from '@/data/site';
 import { SERVICES } from '@/data/services';
 import { LOCATIONS } from '@/data/locations';
+import { REVIEWS, REVIEWS_OVERVIEW } from '@/data/reviews';
 import type { Crumb } from '@/components/Breadcrumbs';
 
 const BASE = SITE.url;
@@ -47,6 +48,23 @@ export const localBusinessJsonLd = {
   url: BASE,
   telephone: SITE.phoneHref.replace('tel:', ''),
   priceRange: '$$',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: REVIEWS_OVERVIEW.rating.toFixed(1),
+    reviewCount: REVIEWS_OVERVIEW.totalReviews.toString(),
+    bestRating: '5',
+    worstRating: '1',
+  },
+  review: REVIEWS.map((r) => ({
+    '@type': 'Review',
+    author: { '@type': 'Person', name: r.author },
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: r.rating.toString(),
+      bestRating: '5',
+    },
+    reviewBody: r.text,
+  })),
   address: {
     '@type': 'PostalAddress',
     streetAddress: SITE.address.street,

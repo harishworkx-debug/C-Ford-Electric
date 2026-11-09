@@ -1,6 +1,6 @@
-import { SITE } from '@/data/site';
-import { SERVICES } from '@/data/services';
-import { LOCATIONS } from '@/data/locations';
+import { SITE } from '../data/site';
+import { SERVICES } from '../data/services';
+import { LOCATIONS } from '../data/locations';
 
 const staticPages = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
@@ -21,7 +21,7 @@ export function generateSitemap(): string {
 
   LOCATIONS.forEach((l) => {
     urls.push({
-      loc: `${SITE.url}/service-areas/${l.slug}`,
+      loc: `${SITE.url}/electrician-${l.slug}`,
       priority: '0.8',
       changefreq: 'monthly',
     });

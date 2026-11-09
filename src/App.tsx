@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -34,8 +34,29 @@ function App() {
           {LOCATION_SLUGS.map((slug) => (
             <Route
               key={slug}
-              path={`/service-areas/${slug}`}
+              path={`/electrician-${slug}`}
               element={<LocationDetailPage slug={slug} />}
+            />
+          ))}
+          {LOCATION_SLUGS.map((slug) => (
+            <Route
+              key={`legacy-service-area-${slug}`}
+              path={`/service-areas/${slug}`}
+              element={<Navigate to={`/electrician-${slug}`} replace />}
+            />
+          ))}
+          {LOCATION_SLUGS.map((slug) => (
+            <Route
+              key={`slash-electrician-${slug}`}
+              path={`/electrician/${slug}`}
+              element={<Navigate to={`/electrician-${slug}`} replace />}
+            />
+          ))}
+          {LOCATION_SLUGS.map((slug) => (
+            <Route
+              key={`direct-location-${slug}`}
+              path={`/${slug}`}
+              element={<Navigate to={`/electrician-${slug}`} replace />}
             />
           ))}
           <Route path="/contact" element={<ContactPage />} />

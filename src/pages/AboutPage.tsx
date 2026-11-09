@@ -7,6 +7,7 @@ import { PageHero } from '@/components/PageHero';
 import { CallCtaSection } from '@/components/CallCtaSection';
 import { SectionHeading } from '@/components/SectionHeading';
 import { CallButton } from '@/components/CallButton';
+import { ReviewsSection } from '@/components/ReviewsSection';
 
 const VALUES = [
   {
@@ -157,6 +158,9 @@ export function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Customer Reviews */}
+      <ReviewsSection limit={3} />
 
       <CallCtaSection
         heading="Want to know if we can help with your project?"

@@ -1,8 +1,8 @@
 export const SITE = {
   name: 'C Ford Electric',
   legalName: 'C Ford Electric LLC',
-  domain: 'cfordelectric.net',
-  url: 'https://cfordelectric.net',
+  domain: 'www.cfordelectric.net',
+  url: 'https://www.cfordelectric.net',
   phoneDisplay: '(405) 326-4239',
   phoneHref: 'tel:+14053264239',
   email: '',

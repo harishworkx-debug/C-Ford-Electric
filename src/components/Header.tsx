@@ -95,13 +95,14 @@ export function Header() {
   }, [open]);
 
   const serviceItems = SERVICES.map((s) => ({ name: s.name, href: `/${s.slug}-oklahoma-city-ok` }));
-  const locationItems = LOCATIONS.map((l) => ({ name: `${l.city}, ${l.state}`, href: `/service-areas/${l.slug}` }));
+  const locationItems = LOCATIONS.map((l) => ({ name: `${l.city}, ${l.state}`, href: `/electrician-${l.slug}` }));
 
   const mobileNavItems: MobileNavItem[] = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Electrical Services', href: '/services', subItems: serviceItems, overviewLabel: 'All electrical services' },
     { label: 'Service Areas', href: '/service-areas', subItems: locationItems, overviewLabel: 'All service areas' },
+    { label: 'Reviews', href: '/#reviews' },
     { label: 'Contact', href: '/contact' },
   ];
 
@@ -110,6 +111,7 @@ export function Header() {
     { label: 'About', href: '/about' },
     { label: 'Electrical Services', href: '/services' },
     { label: 'Service Areas', href: '/service-areas' },
+    { label: 'Reviews', href: '/#reviews' },
     { label: 'Contact', href: '/contact' },
   ];
 
