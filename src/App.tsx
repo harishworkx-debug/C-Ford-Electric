@@ -14,6 +14,8 @@ import { PrivacyPage } from '@/pages/PrivacyPage';
 import { TermsPage } from '@/pages/TermsPage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { ServiceLocationPage } from '@/pages/ServiceLocationPage';
+import { BlogOverviewPage } from '@/pages/BlogOverviewPage';
+import { BlogPostPage } from '@/pages/BlogPostPage';
 import { SERVICES } from '@/data/services';
 import { LOCATIONS } from '@/data/locations';
 
@@ -60,6 +62,8 @@ function App() {
             />
           ))}
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/blog" element={<BlogOverviewPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/privacy-policy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
 

@@ -1,12 +1,14 @@
 import { SITE } from '../data/site';
 import { SERVICES } from '../data/services';
 import { LOCATIONS } from '../data/locations';
+import { BLOG_POSTS } from '../data/blogs';
 
 const staticPages = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
   { path: '/about', priority: '0.8', changefreq: 'monthly' },
   { path: '/services', priority: '0.9', changefreq: 'monthly' },
   { path: '/service-areas', priority: '0.8', changefreq: 'monthly' },
+  { path: '/blog', priority: '0.8', changefreq: 'weekly' },
   { path: '/contact', priority: '0.8', changefreq: 'monthly' },
   { path: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
   { path: '/terms', priority: '0.3', changefreq: 'yearly' },
@@ -17,6 +19,14 @@ export function generateSitemap(): string {
 
   staticPages.forEach((p) => {
     urls.push({ loc: `${SITE.url}${p.path}`, priority: p.priority, changefreq: p.changefreq });
+  });
+
+  BLOG_POSTS.forEach((b) => {
+    urls.push({
+      loc: `${SITE.url}/blog/${b.slug}`,
+      priority: '0.7',
+      changefreq: 'monthly',
+    });
   });
 
   LOCATIONS.forEach((l) => {

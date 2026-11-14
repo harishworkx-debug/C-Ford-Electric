@@ -103,6 +103,7 @@ export function Header() {
     { label: 'Electrical Services', href: '/services', subItems: serviceItems, overviewLabel: 'All electrical services' },
     { label: 'Service Areas', href: '/service-areas', subItems: locationItems, overviewLabel: 'All service areas' },
     { label: 'Reviews', href: '/#reviews' },
+    { label: 'Guides', href: '/blog' },
     { label: 'Contact', href: '/contact' },
   ];
 
@@ -112,6 +113,7 @@ export function Header() {
     { label: 'Electrical Services', href: '/services' },
     { label: 'Service Areas', href: '/service-areas' },
     { label: 'Reviews', href: '/#reviews' },
+    { label: 'Guides', href: '/blog' },
     { label: 'Contact', href: '/contact' },
   ];
 

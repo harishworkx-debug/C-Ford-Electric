@@ -99,6 +99,7 @@ export function Footer() {
             </ul>
             <ul className="mt-5 space-y-2 text-sm">
               <li><Link to="/about" className="text-navy-300 hover:text-gold-300">About Us</Link></li>
+              <li><Link to="/blog" className="text-navy-300 hover:text-gold-300">Electrical Guides &amp; Tips</Link></li>
               <li><Link to="/#reviews" className="text-navy-300 hover:text-gold-300">Customer Reviews (5.0 ★)</Link></li>
               <li><Link to="/contact" className="text-navy-300 hover:text-gold-300">Contact</Link></li>
               <li><Link to="/privacy-policy" className="text-navy-300 hover:text-gold-300">Privacy Policy</Link></li>
