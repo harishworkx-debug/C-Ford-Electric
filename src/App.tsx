@@ -61,6 +61,20 @@ function App() {
               element={<Navigate to={`/electrician-${slug}`} replace />}
             />
           ))}
+          {SERVICE_SLUGS.map((slug) => (
+            <Route
+              key={`direct-service-${slug}`}
+              path={`/${slug}`}
+              element={<Navigate to={`/${slug}-oklahoma-city-ok`} replace />}
+            />
+          ))}
+          {SERVICE_SLUGS.map((slug) => (
+            <Route
+              key={`services-service-${slug}`}
+              path={`/services/${slug}`}
+              element={<Navigate to={`/${slug}-oklahoma-city-ok`} replace />}
+            />
+          ))}
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/blog" element={<BlogOverviewPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
