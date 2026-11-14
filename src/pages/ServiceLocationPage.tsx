@@ -30,10 +30,11 @@ export function ServiceLocationPage({ serviceSlug, locationSlug }: Props) {
   }
 
   const path = `/${service.slug}-${location.slug}`;
-  const fullName = `${service.name} in ${location.city}, ${location.state}`;
+  const isOkc = location.slug === 'oklahoma-city-ok';
+  const fullName = isOkc && service.h1 ? service.h1 : `${service.name} in ${location.city}, ${location.state}`;
 
-  const seoTitle = `${service.name} ${location.city}, ${location.state} | C Ford Electric | ${SITE.phoneDisplay}`;
-  const seoDesc = `${service.name} in ${location.city}, ${location.state}. ${service.short} Call C Ford Electric at ${SITE.phoneDisplay} for ${service.name.toLowerCase()} in ${location.city}.`;
+  const seoTitle = isOkc && service.metaTitle ? service.metaTitle : `${service.name} ${location.city}, ${location.state} | C Ford Electric | ${SITE.phoneDisplay}`;
+  const seoDesc = isOkc && service.metaDescription ? service.metaDescription : `${service.name} in ${location.city}, ${location.state}. ${service.short} Call C Ford Electric at ${SITE.phoneDisplay} for ${service.name.toLowerCase()} in ${location.city}.`;
 
   const combinedFaqs = [
     {
@@ -94,7 +95,8 @@ function ServiceLocationContent({
     jsonLd,
   });
 
-  const fullName = `${service.name} in ${location.city}, ${location.state}`;
+  const isOkc = location.slug === 'oklahoma-city-ok';
+  const fullName = isOkc && service.h1 ? service.h1 : `${service.name} in ${location.city}, ${location.state}`;
   const intro = `${service.intro.replace(/Oklahoma City metro area\./, `${location.city} and the Oklahoma City metro area.`)} ${location.context}`;
 
   const relatedServices = SERVICES.filter((s) => s.slug !== service.slug).slice(0, 4);
@@ -157,14 +159,15 @@ function ServiceLocationContent({
               </div>
 
               <div className="mt-12 prose-tight">
-                <p>
+                {service.detail.map((paragraph, idx) => (
+                  <p key={idx} className="mt-4 first:mt-0 leading-relaxed text-navy-700">
+                    {paragraph}
+                  </p>
+                ))}
+                <p className="mt-4 leading-relaxed text-navy-700">
                   {location.local} If you need {service.name.toLowerCase()} in {location.city},
                   C Ford Electric is ready to help — call {SITE.phoneDisplay} and tell us about
                   your project.
-                </p>
-                <p className="mt-4">
-                  {service.detail[0]} Our team serves {location.descriptor}, and {location.city}{' '}
-                  is a regular part of our Oklahoma City metro service area.
                 </p>
               </div>
 

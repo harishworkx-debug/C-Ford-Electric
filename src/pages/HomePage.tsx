@@ -155,9 +155,9 @@ const CAPABILITIES = [
 
 export function HomePage() {
   useSeo({
-    title: 'C Ford Electric | Oklahoma City Electricians | (405) 326-4239',
+    title: 'C Ford Electric | Electrician in Oklahoma City, OK',
     description:
-      'C Ford Electric is an Oklahoma City electrical contractor providing residential, commercial, and industrial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 326-4239.',
+      'Looking for an electrician in Oklahoma City, OK? Contact C Ford Electric for professional electrical services, repairs, installations and electrical upgrades. Request an estimate today.',
     path: '/',
     jsonLd: [localBusinessJsonLd, organizationJsonLd, websiteJsonLd],
   });
@@ -183,12 +183,17 @@ export function HomePage() {
               Oklahoma City Electrical Contractors
             </p>
             <h1 className="mt-4 text-4xl font-extrabold leading-tight text-white text-balance sm:text-5xl lg:text-6xl">
-              Electrical Work Done Right Across Oklahoma City
+              Reliable Electrical Services in Oklahoma City, Oklahoma
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-navy-200 sm:text-xl">
-              C Ford Electric is an Oklahoma City electrical contractor serving residential,
-              commercial, and industrial clients. From panel upgrades and wiring to new construction
-              and storm damage repair — call us and talk to a real electrician.
+              C Ford Electric provides electrical services for property owners and businesses in the
+              Oklahoma City area. Whether you need electrical troubleshooting, wiring improvements,
+              lighting installation or an electrical panel upgrade, our team can help you find the
+              right solution for your project.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-navy-300">
+              From smaller electrical repairs to larger electrical installations, we focus on safe,
+              dependable workmanship and clear communication throughout the process.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
               <CallButton size="lg" label="Call" />

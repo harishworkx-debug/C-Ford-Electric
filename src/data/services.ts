@@ -28,37 +28,39 @@ export const SERVICES: Service[] = [
       'Fast diagnosis and repair of faulty outlets, switches, breakers, and wiring across the Oklahoma City metro.',
     category: 'General',
     image: 'panelMultimeter',
-    h1: 'Electrical Repair in Oklahoma City, OK',
-    metaTitle: 'Electrical Repair Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    h1: 'Professional Electrical Repair Services in Oklahoma City',
+    metaTitle: 'Electrical Repair in Oklahoma City, OK | C Ford Electric',
     metaDescription:
-      'Need electrical repair in Oklahoma City, OK? C Ford Electric diagnoses and repairs outlets, switches, breakers, and wiring for homes and businesses. Call (405) 326-4239.',
+      'Looking for professional electrical repair in Oklahoma City, OK? C Ford Electric handles circuit breaker problems, flickering lights, faulty outlets, and wiring troubleshooting. Call (405) 326-4239.',
     intro:
-      'When outlets stop working, breakers keep tripping, or lights flicker without explanation, C Ford Electric provides electrical repair service for residential and commercial properties throughout the Oklahoma City metro area. Our electricians diagnose the root cause and complete repairs to current Oklahoma electrical code.',
+      'When outlets stop working, breakers keep tripping, or lights flicker without explanation, C Ford Electric provides professional electrical repair services throughout Oklahoma City. Our licensed electricians diagnose the root cause and complete code-compliant repairs to ensure your home or business remains safe and dependable.',
     problems: [
-      'Outlets that have stopped working or feel warm to the touch',
-      'Circuit breakers that trip repeatedly under normal load',
-      'Flickering or dimming lights when appliances switch on',
-      'Switches that buzz, spark, or fail to respond',
-      'Burning smell or discoloration near outlets or panels',
-      'GFCI or AFCI outlets that will not reset',
+      'Common electrical problems in homes and businesses (circuit overloads and power surges)',
+      'Circuit breaker problems and electrical troubleshooting (repeated tripping or buzzing breakers)',
+      'Flickering lights, dimming fixtures, and faulty switches',
+      'Faulty or dead outlets, warm-to-the-touch receptacles, and ungrounded outlets',
+      'Electrical wiring concerns, burning odors, or scorch marks near junction boxes',
+      'When to contact a professional electrician: GFCI/AFCI failures, sparking devices, or intermittent outages',
     ],
     process: [
       {
-        title: 'Call and describe the issue',
-        body: 'Tell us what you are experiencing — which outlets, circuits, or fixtures are affected and when it started. This helps us prepare before we arrive.',
+        title: 'Call and describe your electrical issue',
+        body: 'Tell us what you are experiencing — which outlets, breakers, or fixtures are affected and when the issue began. This helps our electricians prepare before arriving.',
       },
       {
-        title: 'On-site diagnosis',
-        body: 'We inspect the affected circuit, panel, and devices, then test for voltage drop, loose connections, and fault conditions to identify the actual cause.',
+        title: 'Comprehensive on-site diagnosis & troubleshooting',
+        body: 'We test the circuit, panel, and affected devices using precision diagnostic tools to locate voltage drops, faulty neutrals, or hidden shorts.',
       },
       {
-        title: 'Repair and verify',
-        body: 'We replace or repair the faulty device or wiring, restore the circuit, and confirm correct voltage and operation before we leave.',
+        title: 'Safe, code-compliant repair and verification',
+        body: 'We repair or replace faulty devices, secure connections to current Oklahoma electrical code, and test the circuit under normal load before leaving.',
       },
     ],
     detail: [
-      'Electrical problems rarely fix themselves. A warm outlet, a breaker that trips every time the microwave runs, or a light that dims when the AC kicks on are all signs of an underlying issue that should be addressed by a qualified electrician — not ignored.',
-      'C Ford Electric handles everyday repairs — dead outlets, faulty switches, tripping breakers, and damaged wiring — as well as larger repair work like storm-damaged service entrances and corroded panel components. Every repair is completed to Oklahoma electrical code and tested before the circuit goes back into service.',
+      'Common electrical problems rarely resolve on their own. Recurring circuit breaker trips, warm outlets, and flickering lights usually indicate deeper system strain or aging wiring that demands immediate attention from a qualified electrician rather than temporary workarounds.',
+      'Electrical troubleshooting requires systematic diagnosis. At C Ford Electric, we inspect every component along the affected branch circuit — from the main panel breaker and intermediate junction boxes to end receptacles — pinpointing the exact failure point without guesswork.',
+      'Wiring concerns such as loose terminations, overloaded circuits, or degraded insulation present serious fire hazards. We address common residential and commercial electrical concerns promptly with durable, code-approved repairs.',
+      'Knowing when to contact a professional electrician is vital for personal safety. If you detect burning smells, notice sparks from an outlet, or experience persistent breaker trips, shut off the circuit at the panel and contact C Ford Electric immediately at (405) 326-4239.',
     ],
     faqs: [
       {
@@ -72,6 +74,10 @@ export const SERVICES: Service[] = [
       {
         q: 'What should I do if an outlet is warm or discolored?',
         a: 'Stop using that outlet and call us right away. Heat or discoloration can indicate a loose connection or overloaded circuit that creates a fire risk.',
+      },
+      {
+        q: 'When should I contact a professional electrician instead of DIY?',
+        a: 'Any time you experience burning odors, buzzing panels, sparking outlets, or recurring trips, contact a licensed electrician. Electrical work carries fire and shock hazards that require proper training and tools.',
       },
     ],
   },
@@ -135,36 +141,39 @@ export const SERVICES: Service[] = [
       'Upgrade outdated or undersized panels to safely handle the demands of a modern home or business.',
     category: 'General',
     image: 'breakerPanel',
-    h1: 'Electrical Panel Upgrades in Oklahoma City, OK',
-    metaTitle: 'Electrical Panel Upgrade Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    h1: 'Electrical Panel Upgrade Services in Oklahoma City',
+    metaTitle: 'Electrical Panel Upgrades Oklahoma City, OK | C Ford Electric',
     metaDescription:
-      'Upgrade your electrical panel in Oklahoma City, OK. C Ford Electric replaces outdated and undersized panels to meet modern demand. Call (405) 326-4239.',
+      'Upgrade your electrical panel in Oklahoma City, OK. C Ford Electric evaluates panel capacity, replaces outdated fuse boxes, and installs modern 200A breaker panels. Call (405) 326-4239.',
     intro:
-      'An outdated or undersized electrical panel is the single most common cause of breaker tripping, flickering lights, and inability to run modern appliances. C Ford Electric upgrades and replaces electrical panels across Oklahoma City to safely handle today\'s loads.',
+      'An electrical panel plays an important role in distributing electricity throughout your property. If your electrical system struggles to handle modern appliances, experiences recurring breaker issues or requires additional capacity, an electrical panel evaluation may be appropriate. C Ford Electric can explain available electrical upgrade options and help property owners understand the requirements for their project.',
     problems: [
-      'Your panel is a fuse box or is more than 30 years old',
-      'Breakers trip when you run multiple appliances at once',
-      'You are adding an EV charger, hot tub, or new HVAC system',
-      'There is no room for additional circuits in your current panel',
-      'Your panel brand has been recalled or is known to be unreliable',
+      'Your property still relies on an obsolete fuse box or a panel over 30 years old',
+      'Circuit breakers trip repeatedly when running modern high-draw appliances',
+      'Adding an EV charger, induction stove, heat pump, or workshop equipment',
+      'No physical breaker spaces remaining for new circuits in your existing panel',
+      'Sub-100-amp electrical service that cannot meet today\'s residential power needs',
+      'Presence of problematic panel brands known for safety hazards or failure to trip',
     ],
     process: [
       {
-        title: 'Assess your current panel and load',
-        body: 'We look at your existing panel, your service size, and the loads you need to support now and in the near future.',
+        title: 'Panel evaluation & load calculation',
+        body: 'We evaluate your existing panel condition, service drop size, grounding electrodes, and current electric demand to establish necessary capacity.',
       },
       {
-        title: 'Plan the upgrade',
-        body: 'We size the new panel and service, confirm circuit requirements, and schedule the work.',
+        title: 'Permitting & upgrade planning',
+        body: 'We size the new 200A service panel, map branch circuits, and coordinate with local utilities and code authorities.',
       },
       {
-        title: 'Replace and inspect',
-        body: 'We install the new panel, transfer and label every circuit, and verify proper operation before the job is complete.',
+        title: 'Installation & circuit labeling',
+        body: 'We install the new panel, transfer circuits neatly, verify grounding and bonding, and clearly label every breaker for your convenience.',
       },
     ],
     detail: [
-      'Panel upgrades are one of the most important safety improvements you can make in an older home. Many Oklahoma City homes still operate on 100-amp or smaller panels installed decades ago — far below what a modern household with air conditioning, electric dryers, and an EV charger demands.',
-      'C Ford Electric replaces outdated and undersized panels with correctly sized modern breaker panels, transfers and labels every circuit, and ensures the grounding system meets current code. We also handle panel replacements for commercial properties.',
+      'An electrical panel plays an important role in distributing electricity throughout your property. If your electrical system struggles to handle modern appliances, experiences recurring breaker issues or requires additional capacity, an electrical panel evaluation may be appropriate.',
+      'C Ford Electric can explain available electrical upgrade options and help property owners understand the requirements for their project. We examine your meter base, service entrance cable, main breaker, and distribution panel to provide honest, transparent recommendations.',
+      'Modern Oklahoma City homes rely heavily on electricity for central air conditioning, electric vehicle chargers, modern kitchen suites, and home electronics. Many pre-1980 homes in the OKC metro were constructed with 60A or 100A panels that simply cannot handle these concurrent loads safely.',
+      'Upgrading to a modern 200-amp breaker panel enhances safety, protects high-value appliances, provides expansion slots for future additions, and ensures full compliance with current Oklahoma electrical code.',
     ],
     faqs: [
       {
@@ -183,23 +192,23 @@ export const SERVICES: Service[] = [
   },
   {
     slug: 'electrical-wiring',
-    name: 'Electrical Wiring',
+    name: 'Electrical Wiring Services',
     short:
-      'New wiring and rewiring for homes, additions, remodels, and commercial build-outs — safe and code-compliant.',
+      'New wiring, rewiring, and wiring repair for homes, additions, remodels, and commercial build-outs.',
     category: 'Residential',
     image: 'wiring',
-    h1: 'Electrical Wiring in Oklahoma City, OK',
-    metaTitle: 'Electrical Wiring & Rewiring Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    h1: 'Electrical Wiring Services in Oklahoma City, OK',
+    metaTitle: 'Electrical Wiring Services Oklahoma City | C Ford Electric',
     metaDescription:
-      'Electrical wiring and rewiring in Oklahoma City, OK. C Ford Electric wires new construction, additions, remodels, and commercial build-outs. Call (405) 326-4239.',
+      'Reliable electrical wiring services in Oklahoma City, OK. C Ford Electric handles wiring repair, whole-home rewiring, additions, and code-compliant installations. Call (405) 326-4239.',
     intro:
-      'C Ford Electric runs new wiring and rewires existing structures throughout the Oklahoma City metro. From a single circuit to a whole-home rewire, every run is sized, grounded, and secured to Oklahoma electrical code.',
+      'C Ford Electric provides comprehensive electrical wiring services for homes, additions, remodels, and commercial properties throughout Oklahoma City. From targeted electrical wiring repair in OKC to whole-home rewiring, our licensed electricians ensure every circuit is properly sized, grounded, and code-compliant.',
     problems: [
-      'Knob-and-tube or aluminum wiring in an older home',
-      'Wiring that is not grounded or lacks a dedicated neutral',
-      'An addition or remodel that needs new circuits',
-      'Damaged wiring from storms, rodents, or remodeling',
-      'A finished garage or basement that needs new circuits',
+      'Knob-and-tube or aluminum branch wiring requiring remediation or modern replacement',
+      'Ungrounded outlets or outdated two-wire circuits lacking a dedicated equipment ground',
+      'Electrical wiring repair in OKC for shorted wires, overloaded circuits, and damaged lines',
+      'Room additions, converted garages, and finished basements requiring new dedicated circuits',
+      'Remodeling projects requiring relocated service drops, sub-panels, and new branch wiring',
     ],
     process: [
       {
@@ -238,21 +247,21 @@ export const SERVICES: Service[] = [
     slug: 'lighting-installation',
     name: 'Lighting Installation',
     short:
-      'Indoor and outdoor lighting installation — recessed lighting, fixtures, exterior security, and landscape lighting.',
+      'Indoor and outdoor light fixture installation — recessed lighting, fixtures, exterior security, and landscape lighting.',
     category: 'Residential',
     image: 'chromeLight',
-    h1: 'Lighting Installation in Oklahoma City, OK',
-    metaTitle: 'Lighting Installation Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    h1: 'Light Fixture Installation in Oklahoma City, OK',
+    metaTitle: 'Light Fixture Installation Oklahoma City | C Ford Electric',
     metaDescription:
-      'Lighting installation in Oklahoma City, OK — recessed lighting, fixtures, exterior and security lighting. C Ford Electric installs it all. Call (405) 326-4239.',
+      'Professional light fixture installation in Oklahoma City, OK. C Ford Electric installs recessed lighting, interior fixtures, exterior security lights, and LED upgrades. Call (405) 326-4239.',
     intro:
-      'C Ford Electric installs indoor and outdoor lighting for homes and businesses across Oklahoma City. From recessed can lighting to exterior security fixtures, we handle the wiring, mounting, and switching.',
+      'C Ford Electric provides expert light fixture installation and lighting upgrades for homes and commercial facilities across Oklahoma City. From modern recessed can lighting to exterior security lights and commercial fixture layouts, we manage all wiring, mounting, and switching.',
     problems: [
-      'You want to replace outdated surface lighting with recessed fixtures',
-      'Exterior areas need security or pathway lighting',
-      'A new fixture needs a properly rated box and switch',
-      'You are installing landscape or accent lighting',
-      'Commercial space needs new lighting layout',
+      'You want to replace outdated surface lighting with modern recessed can fixtures',
+      'Exterior areas need dedicated security, floodlight, or pathway illumination',
+      'A heavy chandelier or ceiling fan requires a properly rated fan-rated junction box',
+      'You are installing landscape, accent, or under-cabinet LED lighting',
+      'Commercial office or retail spaces needing efficient lighting layouts',
     ],
     process: [
       {
@@ -295,17 +304,17 @@ export const SERVICES: Service[] = [
     category: 'Residential',
     image: 'residentialFusebox',
     h1: 'Residential Electrician in Oklahoma City, OK',
-    metaTitle: 'Residential Electrician Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Residential Electrician Oklahoma City | C Ford Electric',
     metaDescription:
-      'Residential electrician serving Oklahoma City, OK. C Ford Electric handles repairs, installations, panel upgrades, wiring, and lighting for homes. Call (405) 326-4239.',
+      'Trusted residential electrician in Oklahoma City, OK. C Ford Electric handles home electrical repairs, installations, panel upgrades, wiring, and lighting. Call (405) 326-4239.',
     intro:
-      'C Ford Electric is a residential electrician serving homeowners across the Oklahoma City metro. From a single outlet repair to a whole-home rewire, we provide the full range of residential electrical work.',
+      'C Ford Electric is a trusted residential electrician serving homeowners across the Oklahoma City metro. From troubleshooting faulty outlets and upgrading outdated panels to complete home rewiring and lighting installations, we deliver dependable residential electrical work.',
     problems: [
-      'You need a dependable electrician for your home',
-      'An older home needs electrical updates for safety and capacity',
-      'You are remodeling and need electrical work done right',
-      'You want to add outlets, fixtures, or circuits',
-      'Your panel or wiring needs upgrading',
+      'You need a dependable residential electrician for your home in Oklahoma City',
+      'An older home needs electrical updates for modern safety and appliance capacity',
+      'You are remodeling a kitchen or bathroom and need electrical work done right',
+      'You want to add dedicated circuits for an EV charger, hot tub, or HVAC unit',
+      'Your breaker panel or residential wiring requires professional evaluation',
     ],
     process: [
       {
@@ -344,39 +353,41 @@ export const SERVICES: Service[] = [
     slug: 'commercial-electrician',
     name: 'Commercial Electrician',
     short:
-      'Commercial and industrial electrical work for Oklahoma City businesses — tenant build-outs, service, and new construction.',
+      'Commercial and industrial electrical contractor for Oklahoma City businesses — build-outs, service, and power distribution.',
     category: 'Commercial',
     image: 'switchboard',
-    h1: 'Commercial Electrician in Oklahoma City, OK',
-    metaTitle: 'Commercial Electrician Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    h1: 'Commercial Electrical Contractor in Oklahoma City',
+    metaTitle: 'Commercial Electrician Oklahoma City, OK | C Ford Electric',
     metaDescription:
-      'Commercial electrician in Oklahoma City, OK. C Ford Electric handles tenant build-outs, commercial service, and new construction electrical work. Call (405) 326-4239.',
+      'Licensed commercial electrical contractor in Oklahoma City, OK. C Ford Electric specializes in commercial installations, tenant improvements, electrical distribution, and maintenance. Call (405) 326-4239.',
     intro:
-      'C Ford Electric provides commercial and industrial electrical services for businesses across Oklahoma City. From tenant build-outs to service and maintenance, we deliver electrical work that keeps your operation running.',
+      'C Ford Electric is a licensed commercial electrical contractor in Oklahoma City. We provide commercial electrical installations, maintenance, troubleshooting, electrical distribution systems, and tenant improvement projects for businesses across the Oklahoma City metro area.',
     problems: [
-      'You are building out a new commercial or retail space',
-      'Your facility needs electrical service or repair',
-      'You are remodeling a commercial property',
-      'You need circuits or panels added for new equipment',
-      'Industrial equipment needs reliable electrical support',
+      'Commercial electrical installations for retail, office, and light industrial spaces',
+      'Electrical maintenance and troubleshooting to prevent business disruption and downtime',
+      'Wiring and electrical upgrades for heavy commercial equipment and machinery',
+      'Electrical distribution systems, three-phase power, and commercial panel upgrades',
+      'Tenant improvement projects, retail build-outs, and commercial remodeling',
+      'Commercial project consultation, lighting design, and electrical load planning',
     ],
     process: [
       {
-        title: 'Scope the commercial work',
-        body: 'We review your project requirements, load needs, and timeline and plan the electrical scope accordingly.',
+        title: 'Commercial project consultation & review',
+        body: 'We review architectural drawings, commercial tenant specs, electrical load requirements, and project deadlines.',
       },
       {
-        title: 'Complete the installation',
-        body: 'We run circuits, install panels and devices, and coordinate with other trades on site.',
+        title: 'Installation & system build-out',
+        body: 'Our electricians run conduit, pull commercial branch wiring, install distribution gear, and coordinate on-site with other trades.',
       },
       {
-        title: 'Commission and verify',
-        body: 'We test every circuit and system and confirm the installation meets code and your operational needs.',
+        title: 'Testing, commissioning & inspection',
+        body: 'We conduct complete system commissioning, test phase balance and voltage regulation, and ensure timely municipal code sign-off.',
       },
     ],
     detail: [
-      'C Ford Electric specializes in commercial, retail, industrial, and medical electrical work in the Oklahoma City area. Our experience includes new construction, tenant build-outs, remodels, and ongoing service for existing commercial properties.',
-      'We understand that downtime costs money. We plan commercial work to minimize disruption and complete installations to code so your business can operate without electrical concerns.',
+      'C Ford Electric provides comprehensive electrical contracting for commercial facilities, offices, retail centers, restaurants, medical clinics, and industrial facilities in Oklahoma City. We understand that operational downtime impacts revenue, which is why we schedule work efficiently and maintain strict job-site safety.',
+      'Our commercial capabilities include electrical distribution systems, 120/208V and 277/480V 3-phase service, dedicated equipment circuits, commercial lighting control, and complete tenant finish-out wiring.',
+      'Whether you are planning a new commercial build-out, renovating existing tenant space, or need ongoing facility electrical maintenance, C Ford Electric delivers dependable workmanship and responsive communication.',
     ],
     faqs: [
       {

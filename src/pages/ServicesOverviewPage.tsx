@@ -24,9 +24,9 @@ const ICONS: Record<string, LucideIcon> = {
 
 export function ServicesOverviewPage() {
   useSeo({
-    title: 'Electrical Services in Oklahoma City, OK | C Ford Electric',
+    title: 'Electrical Services Oklahoma City, OK | C Ford Electric',
     description:
-      'Electrical services in Oklahoma City, OK — repair, installation, panel upgrades, wiring, lighting, residential, commercial, new construction, inspections, and storm damage repair. Call (405) 326-4239.',
+      'Looking for electrical services in Oklahoma City? C Ford Electric provides residential, commercial, and industrial electrical repairs, panel upgrades, wiring, and installations. Call (405) 326-4239.',
     path: '/services',
     jsonLd: [breadcrumbJsonLd([{ name: 'Electrical Services', href: '/services' }])],
   });
@@ -34,9 +34,9 @@ export function ServicesOverviewPage() {
   return (
     <>
       <PageHero
-        eyebrow="Electrical Services"
-        title="Electrical services across the Oklahoma City metro"
-        intro="C Ford Electric provides residential, commercial, and industrial electrical services throughout Oklahoma City and the surrounding area. Every job is completed to current Oklahoma electrical code."
+        eyebrow="Electrical Contractor"
+        title="Electrical Services in Oklahoma City, Oklahoma"
+        intro="C Ford Electric provides professional residential, commercial, and industrial electrical services throughout Oklahoma City and surrounding metro communities. Every job is completed to current Oklahoma electrical code."
         crumbs={[{ name: 'Electrical Services', href: '/services' }]}
       >
         <CallButton size="lg" label="Call" />
