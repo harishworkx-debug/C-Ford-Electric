@@ -141,16 +141,16 @@ const PROJECT_TYPES = [
 ];
 
 const CAPABILITIES = [
-  'Panel upgrades and replacements',
-  'Electrical repair and troubleshooting',
-  'New construction electrical',
-  'Residential and commercial wiring',
-  'Indoor and outdoor lighting installation',
-  'Electrical safety inspections',
-  'Storm damage electrical repair',
-  'Outlet, switch, and fixture installation',
-  'Commercial build-outs and remodels',
-  'Dedicated circuits and EV charger circuits',
+  'Electrical panel upgrades & 200A service replacements',
+  'Emergency electrical repair & circuit troubleshooting',
+  'EV charger installation & 240V dedicated circuits',
+  'Residential & commercial electrical contracting',
+  'Whole-home rewiring & code violation corrections',
+  'Indoor LED recessed lighting & exterior security lighting',
+  'Licensed electrical safety inspections & certifications',
+  'Storm damage service entrance & meter base repairs',
+  'Outlet, GFCI/AFCI breaker, and switch installation',
+  'Commercial tenant build-outs & 3-phase power distribution',
 ];
 
 export function HomePage() {
@@ -227,7 +227,7 @@ export function HomePage() {
                     <Star key={i} className="h-3.5 w-3.5 fill-amber-400" />
                   ))}
                 </span>
-                <span className="font-semibold">5.0 (12 Reviews)</span>
+                <span className="font-semibold">5.0 ★ Google Rating</span>
               </a>
               <span className="inline-flex items-center gap-2">
                 <ShieldCheck className="h-4 w-4 text-gold-400" /> 2022 Inc. 5000 Honoree
