@@ -15,7 +15,7 @@ export const REVIEWS_OVERVIEW = {
   rating: 5.0,
   totalReviews: 12,
   source: 'Google Reviews',
-  mapsUrl: 'https://maps.app.goo.gl/oWpUijijRZ27eyHQ7',
+  mapsUrl: 'https://maps.app.goo.gl/ZN1LmZwvmiFy7Ua3A',
 };
 
 export const REVIEWS: Review[] = [

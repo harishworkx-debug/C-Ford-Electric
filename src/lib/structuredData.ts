@@ -99,7 +99,7 @@ export const localBusinessJsonLd = {
       itemOffered: { '@type': 'Service', name: s.name, description: s.short },
     })),
   },
-  sameAs: ['https://maps.app.goo.gl/oWpUijijRZ27eyHQ7'],
+  sameAs: ['https://maps.app.goo.gl/ZN1LmZwvmiFy7Ua3A'],
 };
 
 export function breadcrumbJsonLd(items: Crumb[]) {
