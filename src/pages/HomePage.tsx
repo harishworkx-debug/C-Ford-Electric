@@ -186,10 +186,19 @@ export function HomePage() {
               Reliable Electrical Services in Oklahoma City, Oklahoma
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-navy-200 sm:text-xl">
-              C Ford Electric provides electrical services for property owners and businesses in the
-              Oklahoma City area. Whether you need electrical troubleshooting, wiring improvements,
-              lighting installation or an electrical panel upgrade, our team can help you find the
-              right solution for your project.
+              C Ford Electric provides professional{' '}
+              <Link to="/services" className="font-semibold text-gold-300 underline underline-offset-4 hover:text-gold-200">
+                Electrical Services
+              </Link>{' '}
+              for property owners and businesses in the Oklahoma City area. Whether you need fast{' '}
+              <Link to="/electrical-repair-oklahoma-city-ok" className="font-semibold text-gold-300 underline underline-offset-4 hover:text-gold-200">
+                Electrical Repair
+              </Link>
+              , wiring improvements, lighting installation or complete{' '}
+              <Link to="/electrical-panel-upgrade-oklahoma-city-ok" className="font-semibold text-gold-300 underline underline-offset-4 hover:text-gold-200">
+                Electrical Panel Upgrades
+              </Link>
+              , our team can help you find the right solution for your project.
             </p>
             <p className="mt-4 text-base leading-relaxed text-navy-300">
               From smaller electrical repairs to larger electrical installations, we focus on safe,

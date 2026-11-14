@@ -82,6 +82,25 @@ export function LocationDetailPage({ slug }: { slug: string }) {
                 Electrical services in {location.city}
               </h2>
               <p className="mt-4 text-navy-600 leading-relaxed">{location.local}</p>
+              <p className="mt-3 text-navy-600 leading-relaxed">
+                Property owners in {location.city} rely on C Ford Electric for dependable{' '}
+                <Link to={`/electrical-repair-${location.slug}`} className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Professional Electrical Repair
+                </Link>
+                , safe{' '}
+                <Link to={`/electrical-panel-upgrade-${location.slug}`} className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Electrical Panel Upgrade Services
+                </Link>
+                , and certified{' '}
+                <Link to={`/commercial-electrician-${location.slug}`} className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Commercial Electrical
+                </Link>{' '}
+                contracting. Explore our complete list of{' '}
+                <Link to="/services" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Electrical Services
+                </Link>{' '}
+                genuinely available in {location.city}:
+              </p>
 
               <h3 className="mt-10 text-xl font-bold text-navy-900">
                 Services available in {location.city}

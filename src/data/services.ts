@@ -59,8 +59,8 @@ export const SERVICES: Service[] = [
     detail: [
       'Common electrical problems rarely resolve on their own. Recurring circuit breaker trips, warm outlets, and flickering lights usually indicate deeper system strain or aging wiring that demands immediate attention from a qualified electrician rather than temporary workarounds.',
       'Electrical troubleshooting requires systematic diagnosis. At C Ford Electric, we inspect every component along the affected branch circuit — from the main panel breaker and intermediate junction boxes to end receptacles — pinpointing the exact failure point without guesswork.',
-      'Wiring concerns such as loose terminations, overloaded circuits, or degraded insulation present serious fire hazards. We address common residential and commercial electrical concerns promptly with durable, code-approved repairs.',
-      'Knowing when to contact a professional electrician is vital for personal safety. If you detect burning smells, notice sparks from an outlet, or experience persistent breaker trips, shut off the circuit at the panel and contact C Ford Electric immediately at (405) 326-4239.',
+      'Wiring concerns such as loose terminations, overloaded circuits, or degraded insulation present serious fire hazards. If your existing panel cannot handle your modern household or commercial electrical load, our team can evaluate whether [Electrical Panel Upgrade Services](/electrical-panel-upgrade-{locationSlug}) are recommended to permanently resolve recurring breaker trips.',
+      'Knowing when to contact a professional electrician is vital for personal safety. If you detect burning smells, notice sparks from an outlet, or experience persistent breaker trips, shut off the circuit at the panel and contact C Ford Electric immediately at (405) 326-4239 or [request an estimate](/contact).',
     ],
     faqs: [
       {
@@ -171,9 +171,9 @@ export const SERVICES: Service[] = [
     ],
     detail: [
       'An electrical panel plays an important role in distributing electricity throughout your property. If your electrical system struggles to handle modern appliances, experiences recurring breaker issues or requires additional capacity, an electrical panel evaluation may be appropriate.',
-      'C Ford Electric can explain available electrical upgrade options and help property owners understand the requirements for their project. We examine your meter base, service entrance cable, main breaker, and distribution panel to provide honest, transparent recommendations.',
+      'C Ford Electric can explain available electrical upgrade options and help property owners understand the requirements for their project. Before replacing service equipment, our electricians perform [Electrical Troubleshooting](/electrical-repair-{locationSlug}) to determine whether nuisance trips stem from a damaged breaker, localized ground fault, or true service overload.',
       'Modern Oklahoma City homes rely heavily on electricity for central air conditioning, electric vehicle chargers, modern kitchen suites, and home electronics. Many pre-1980 homes in the OKC metro were constructed with 60A or 100A panels that simply cannot handle these concurrent loads safely.',
-      'Upgrading to a modern 200-amp breaker panel enhances safety, protects high-value appliances, provides expansion slots for future additions, and ensures full compliance with current Oklahoma electrical code.',
+      'Upgrading to a modern 200-amp breaker panel enhances safety, protects high-value appliances, provides expansion slots for future additions, and ensures full compliance with current Oklahoma electrical code. Contact C Ford Electric today to [request an estimate](/contact).',
     ],
     faqs: [
       {
@@ -226,7 +226,8 @@ export const SERVICES: Service[] = [
     ],
     detail: [
       'Wiring is the backbone of any electrical system. Older Oklahoma City homes — especially those built before 1960 — may still contain knob-and-tube or ungrounded wiring that cannot safely support modern loads and lacks the grounding that today\'s devices and surge protection require.',
-      'C Ford Electric handles new wiring for additions and remodels, whole-home rewires, and commercial build-outs. We also replace aluminum branch wiring, which is associated with connection failures, and repair wiring damaged by storms or renovations.',
+      'C Ford Electric handles new wiring for additions and remodels, whole-home rewires, and commercial build-outs. We also replace aluminum branch wiring, which is associated with connection failures, and perform targeted [Professional Electrical Repair](/electrical-repair-{locationSlug}) for shorted lines and damaged circuits.',
+      'Major home rewiring and electrical additions often require expanding service capacity. Our team frequently pairs whole-home rewiring with [Electrical Panel Upgrade Services](/electrical-panel-upgrade-{locationSlug}) to safely accommodate modern appliance demands.',
     ],
     faqs: [
       {
@@ -387,7 +388,7 @@ export const SERVICES: Service[] = [
     detail: [
       'C Ford Electric provides comprehensive electrical contracting for commercial facilities, offices, retail centers, restaurants, medical clinics, and industrial facilities in Oklahoma City. We understand that operational downtime impacts revenue, which is why we schedule work efficiently and maintain strict job-site safety.',
       'Our commercial capabilities include electrical distribution systems, 120/208V and 277/480V 3-phase service, dedicated equipment circuits, commercial lighting control, and complete tenant finish-out wiring.',
-      'Whether you are planning a new commercial build-out, renovating existing tenant space, or need ongoing facility electrical maintenance, C Ford Electric delivers dependable workmanship and responsive communication.',
+      'Whether you are planning a new commercial build-out, renovating existing tenant space, or need ongoing facility electrical maintenance, C Ford Electric delivers dependable workmanship and responsive communication. Contact us today to [Request a Commercial Electrical Estimate](/contact) or discuss your project specifications.',
     ],
     faqs: [
       {

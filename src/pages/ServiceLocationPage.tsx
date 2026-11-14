@@ -13,6 +13,38 @@ import { CallCtaSection } from '@/components/CallCtaSection';
 
 type Props = { serviceSlug: string; locationSlug: string };
 
+function renderContentWithLinks(text: string, locationSlug: string) {
+  const parts: (string | JSX.Element)[] = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const anchor = match[1];
+    let href = match[2].replace('{locationSlug}', locationSlug);
+
+    parts.push(
+      <Link
+        key={`${match.index}-${href}`}
+        to={href}
+        className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700"
+      >
+        {anchor}
+      </Link>
+    );
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
+
 export function ServiceLocationPage({ serviceSlug, locationSlug }: Props) {
   const service = getService(serviceSlug);
   const location = getLocation(locationSlug);
@@ -161,13 +193,20 @@ function ServiceLocationContent({
               <div className="mt-12 prose-tight">
                 {service.detail.map((paragraph, idx) => (
                   <p key={idx} className="mt-4 first:mt-0 leading-relaxed text-navy-700">
-                    {paragraph}
+                    {renderContentWithLinks(paragraph, location.slug)}
                   </p>
                 ))}
                 <p className="mt-4 leading-relaxed text-navy-700">
-                  {location.local} If you need {service.name.toLowerCase()} in {location.city},
-                  C Ford Electric is ready to help — call {SITE.phoneDisplay} and tell us about
-                  your project.
+                  {location.local} If you need {service.name.toLowerCase()} in {location.city},{' '}
+                  C Ford Electric is ready to help — call {SITE.phoneDisplay} or{' '}
+                  <Link to="/contact" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                    request an estimate
+                  </Link>
+                  . You can also explore our complete range of{' '}
+                  <Link to="/services" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                    Electrical Services
+                  </Link>{' '}
+                  across the Oklahoma City metro area.
                 </p>
               </div>
 

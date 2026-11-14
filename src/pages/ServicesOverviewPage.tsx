@@ -50,6 +50,23 @@ export function ServicesOverviewPage() {
             intro="From a single outlet repair to a full commercial build-out, these are the electrical services C Ford Electric provides across the Oklahoma City metro."
             center
           />
+          <div className="mx-auto mt-6 max-w-3xl text-center text-sm leading-relaxed text-navy-600 sm:text-base">
+            <p>
+              Looking for reliable electrical contractors? We provide{' '}
+              <Link to="/electrical-repair-oklahoma-city-ok" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                Professional Electrical Repair
+              </Link>{' '}
+              for urgent troubleshooting, complete{' '}
+              <Link to="/electrical-wiring-oklahoma-city-ok" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                Electrical Wiring Services
+              </Link>{' '}
+              for additions and remodels, and modern{' '}
+              <Link to="/electrical-panel-upgrade-oklahoma-city-ok" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                Electrical Panel Upgrade Services
+              </Link>
+              . Select a service below to learn more or contact us for a free consultation.
+            </p>
+          </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {SERVICES.map((s) => {
               const Icon = ICONS[s.slug] ?? Zap;
