@@ -116,8 +116,9 @@ export const SERVICES: Service[] = [
       },
     ],
     detail: [
-      'Proper installation matters. An outlet wired with reversed polarity, a fixture box that is not rated for its weight, or a circuit that is oversized for its wire can all create hidden hazards. C Ford Electric installs every device and circuit to code the first time.',
-      'We install outlets, switches, light fixtures, ceiling fans, dedicated appliance circuits, exterior circuits, and more — for both residential and commercial properties across the Oklahoma City metro.',
+      'Proper installation matters. An outlet wired with reversed polarity, a fixture box that is not rated for its weight, or a circuit that is oversized for its wire can all create hidden hazards. C Ford Electric installs every device, dedicated circuit, and appliance branch to current Oklahoma electrical code the first time.',
+      'We install outlets, switches, light fixtures, ceiling fans, 240V appliance circuits, EV charger hookups, and exterior circuits for residential and commercial properties. If you are adding modern high-draw fixtures or appliances, we also coordinate with [Lighting Installation](/lighting-installation-{locationSlug}) and evaluate whether an [Electrical Panel Upgrade](/electrical-panel-upgrade-{locationSlug}) is needed to support the increased electrical load.',
+      'Every installation is thoroughly tested under load, grounded to NEC standards, and clearly labeled in your breaker box. Contact Glenn Ford at (405) 326-4239 or [request an estimate](/contact) to schedule your installation.',
     ],
     faqs: [
       {
@@ -279,8 +280,9 @@ export const SERVICES: Service[] = [
       },
     ],
     detail: [
-      'Lighting installation is one of the most common upgrades in Oklahoma City homes. Converting old surface-mounted lights to recessed fixtures, adding exterior security lighting, and installing landscape lighting all improve both function and value.',
-      'C Ford Electric installs recessed lighting, ceiling fixtures, chandeliers, exterior security lights, pathway and landscape lighting, and commercial lighting layouts. We also install dimmers and smart switches where compatible.',
+      'Lighting installation is one of the most impactful upgrades for Oklahoma City homes and commercial spaces. Converting old surface-mounted lights to modern IC-rated recessed LED fixtures, adding exterior security floodlights, and illuminating outdoor pathways improves safety, visibility, and energy efficiency.',
+      'C Ford Electric handles all aspects of lighting work — from running new branch circuits and mounting fan-rated ceiling boxes to installing smart dimming systems and commercial fixture layouts. If older branch wiring is discovered during installation, our team provides [Electrical Wiring Services](/electrical-wiring-{locationSlug}) to ensure your new fixtures are properly grounded and safe.',
+      'If you are also experiencing flickering lights on existing circuits, our electricians perform [Professional Electrical Repair](/electrical-repair-{locationSlug}) to isolate loose neutrals or voltage fluctuations before installing new fixtures. Contact C Ford Electric today to [request an estimate](/contact).',
     ],
     faqs: [
       {
@@ -332,8 +334,9 @@ export const SERVICES: Service[] = [
       },
     ],
     detail: [
-      'Homeowners across Oklahoma City count on C Ford Electric for residential electrical work that is done correctly and safely. We handle the full range of residential needs — repairs, installations, panel upgrades, wiring, lighting, and more.',
-      'Whether you live in an older home that needs its panel and wiring brought up to date or a newer home where you are adding an EV charger or finishing a basement, we provide residential electrical service tailored to the job.',
+      'Homeowners across Oklahoma City count on C Ford Electric for residential electrical services executed with master-level craftsmanship. We handle the entire spectrum of residential electrical needs — from troubleshooting flickering lights and dead outlets to complete home rewires and service upgrades.',
+      'Whether you live in an established neighborhood with aging wiring or a newer home requiring a dedicated circuit for an electric vehicle, hot tub, or induction range, we deliver dependable workmanship tailored to your home’s electrical layout.',
+      'Our residential services integrate seamlessly with [Electrical Repair](/electrical-repair-{locationSlug}) for diagnostic troubleshooting, and [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}) when expanding your household electrical capacity. Call (405) 326-4239 or [contact C Ford Electric](/contact) for a free project consultation.',
     ],
     faqs: [
       {
@@ -439,8 +442,9 @@ export const SERVICES: Service[] = [
       },
     ],
     detail: [
-      'New construction is one of C Ford Electric\'s core specialties. We install complete electrical systems for new homes and commercial buildings across the Oklahoma City metro — from the service entrance and panel through every circuit, device, and fixture.',
-      'A correctly planned and installed electrical system is far easier to live with and maintain. We size service and panels for the home\'s actual needs, place devices where they are useful, and label every circuit clearly at the panel.',
+      'New construction electrical is one of C Ford Electric’s primary specialties. We design and install complete electrical infrastructure for custom homes, multi-family properties, and commercial buildings across the Oklahoma City metro — from the utility service entrance and main switchgear to final device trim-out.',
+      'A properly planned electrical system prevents future overload headaches. We calculate precise load demands, install high-capacity [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}), and coordinate seamlessly with general contractors, framers, plumbers, and HVAC technicians throughout the build.',
+      'For commercial builds, our team also provides comprehensive [Commercial Electrical Services](/commercial-electrician-{locationSlug}) including three-phase power distribution, emergency exit lighting, and dedicated machinery circuits. Contact C Ford Electric to [request an estimate](/contact) for your upcoming construction project.',
     ],
     faqs: [
       {
@@ -492,8 +496,9 @@ export const SERVICES: Service[] = [
       },
     ],
     detail: [
-      'An electrical inspection is one of the most valuable steps you can take before buying an older home, finishing a remodel, or planning a panel upgrade. C Ford Electric inspects the service entrance, panel, grounding system, wiring, and devices — then tells you plainly what we find.',
-      'We do not invent problems. If your system is in good shape, we tell you. If there are concerns, we explain them in plain language and let you decide how to proceed.',
+      'A comprehensive electrical safety inspection is one of the most critical steps before purchasing a property, remodeling an older Oklahoma home, or insuring commercial facilities. C Ford Electric inspects the service drop, meter base, breaker panel, grounding electrodes, branch circuit wiring, and safety devices (GFCI/AFCI).',
+      'We operate with complete honesty — we never fabricate problems. If your system is safe and code-compliant, we confirm it. If hazards exist, such as obsolete fuse boxes, ungrounded circuits, or loose terminations, we explain them clearly and outline recommended solutions.',
+      'If safety issues are uncovered, our team can perform necessary [Electrical Troubleshooting](/electrical-repair-{locationSlug}) or implement an [Electrical Panel Upgrade](/electrical-panel-upgrade-{locationSlug}) to bring your property into full compliance. Contact C Ford Electric at (405) 326-4239 or [schedule an inspection](/contact).',
     ],
     faqs: [
       {
@@ -545,8 +550,9 @@ export const SERVICES: Service[] = [
       },
     ],
     detail: [
-      'Oklahoma\'s severe weather can damage the electrical system on the outside of your home before it ever reaches the panel — torn service drops, broken meter bases, and lightning-damaged equipment are all common after storms.',
-      'C Ford Electric repairs storm-damaged service entrances, meter bases, panels, and wiring, and we coordinate with the utility company where their equipment is involved. If you have storm damage, call us right away.',
+      'Oklahoma’s severe weather — high winds, hail, fallen tree limbs, and lightning strikes — frequently compromises electrical service infrastructure before power even reaches your interior panel. Torn weatherheads, severed service drops, ripped meter cans, and lightning power surges represent urgent hazards.',
+      'C Ford Electric specializes in storm damage electrical restoration. We replace damaged service masts, re-secure meter bases, rebuild damaged panels, and coordinate directly with local utilities (like OG&E) to ensure inspections pass quickly and power is safely restored.',
+      'If your panel was damaged by a lightning strike or voltage spike, we provide emergency [Electrical Repair](/electrical-repair-{locationSlug}) and [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}) to protect your property from subsequent electrical fires. Call (405) 326-4239 immediately or [contact us online](/contact).',
     ],
     faqs: [
       {

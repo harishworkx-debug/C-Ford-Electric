@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { HardHat, Building2, ShieldCheck, Phone, Hammer, Wrench } from 'lucide-react';
 import { SITE } from '@/data/site';
 import { IMAGES } from '@/data/images';
@@ -71,15 +72,28 @@ export function AboutPage() {
                 title="C Ford Electric LLC"
               />
               <p className="mt-5">
-                C Ford Electric LLC is an electrical contractor based in Oklahoma City, Oklahoma.
-                Our work spans the full range of electrical services — residential, commercial, and
-                industrial — including new construction, remodels, and ongoing service for existing
-                properties throughout the Oklahoma City metro area.
+                C Ford Electric LLC is an established electrical contractor based in Oklahoma City, Oklahoma.
+                Our work spans the full range of{' '}
+                <Link to="/services" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Electrical Services
+                </Link>{' '}
+                — residential, commercial, and industrial — including targeted{' '}
+                <Link to="/electrical-repair-oklahoma-city-ok" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Electrical Repair
+                </Link>
+                , comprehensive{' '}
+                <Link to="/electrical-panel-upgrade-oklahoma-city-ok" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Electrical Panel Upgrades
+                </Link>
+                , new construction, and ongoing maintenance for existing properties throughout the Oklahoma City metro area.
               </p>
               <p className="mt-4">
                 Our experience covers commercial, retail, industrial, medical, high-end residential,
-                new construction, and remodel projects. From a single outlet repair to a complete
-                commercial build-out, every job is completed to current Oklahoma electrical code.
+                new construction, and remodel projects. Whether partnering on{' '}
+                <Link to="/commercial-electrician-oklahoma-city-ok" className="font-semibold text-gold-600 underline underline-offset-2 hover:text-gold-700">
+                  Commercial Electrical Projects
+                </Link>{' '}
+                or residential service calls, every job is evaluated and completed by a licensed Master Electrician to current Oklahoma electrical code.
               </p>
               <p className="mt-4">
                 C. Ford Electric was named a 2022 Inc. 5000 honoree, a recognition reserved for the
