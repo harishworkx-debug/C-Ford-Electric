@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -16,6 +16,8 @@ import { NotFoundPage } from '@/pages/NotFoundPage';
 import { ServiceLocationPage } from '@/pages/ServiceLocationPage';
 import { BlogOverviewPage } from '@/pages/BlogOverviewPage';
 import { BlogPostPage } from '@/pages/BlogPostPage';
+import { StandaloneLandingPage } from '@/standalone-landing/StandaloneLandingPage';
+import { USE_LANDING_PAGE_AS_HOME } from '@/siteMode';
 import { SERVICES } from '@/data/services';
 import { LOCATIONS } from '@/data/locations';
 
@@ -23,6 +25,24 @@ const SERVICE_SLUGS = SERVICES.map((s) => s.slug);
 const LOCATION_SLUGS = LOCATIONS.map((l) => l.slug);
 
 function App() {
+  const location = useLocation();
+
+  // Mode Switcher: When TRUE, root "/" and primary OKC slug serve the standalone landing page
+  // Standby route "/home-page" always serves the standalone landing page for live preview
+  const isLandingActive =
+    (USE_LANDING_PAGE_AS_HOME &&
+      (location.pathname === '/' || location.pathname === '/electrician-oklahoma-city-ok')) ||
+    location.pathname === '/home-page';
+
+  if (isLandingActive) {
+    return (
+      <>
+        <ScrollToTop />
+        <StandaloneLandingPage />
+      </>
+    );
+  }
+
   return (
     <div className="flex min-h-screen flex-col">
       <ScrollToTop />
@@ -30,6 +50,7 @@ function App() {
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/home-page" element={<StandaloneLandingPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesOverviewPage />} />
           <Route path="/service-areas" element={<ServiceAreasOverviewPage />} />
