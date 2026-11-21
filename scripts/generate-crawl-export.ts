@@ -40,7 +40,7 @@ const staticPages = [
     path: '/services',
     title: 'Electrical Services in Oklahoma City, OK | C Ford Electric',
     metaDesc:
-      'Comprehensive electrical services in Oklahoma City: repairs, panel upgrades, rewiring, lighting, EV chargers, and commercial work. Call (405) 326-4239.',
+      'Comprehensive electrical services in Oklahoma City: repairs, panel upgrades, rewiring, lighting, EV chargers, and commercial work. Call (405) 654-8819.',
     h1: 'Professional Electrical Services in Oklahoma City',
     inlinks: 122,
   },
@@ -64,7 +64,7 @@ const staticPages = [
     path: '/contact',
     title: 'Contact C Ford Electric | Request an Estimate | Oklahoma City, OK',
     metaDesc:
-      'Contact C Ford Electric at (405) 326-4239 for electrical services across Oklahoma City, OK. Fast response, fair pricing, and master electrician expertise.',
+      'Contact C Ford Electric at (405) 654-8819 for electrical services across Oklahoma City, OK. Fast response, fair pricing, and master electrician expertise.',
     h1: 'Contact C Ford Electric',
     inlinks: 122,
   },

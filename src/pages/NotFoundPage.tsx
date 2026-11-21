@@ -8,7 +8,7 @@ export function NotFoundPage() {
   useSeo({
     title: 'Page Not Found | C Ford Electric',
     description:
-      'The page you were looking for could not be found. Call C Ford Electric at (405) 326-4239 for electrical service in the Oklahoma City metro.',
+      'The page you were looking for could not be found. Call C Ford Electric at (405) 654-8819 for electrical service in the Oklahoma City metro.',
     path: '/404',
     noindex: true,
   });

@@ -220,7 +220,7 @@ export function BlogPostPage() {
 
       <CallCtaSection
         heading={`Have questions about ${post.targetKeyword.toLowerCase()}?`}
-        subheading="Call C Ford Electric at (405) 326-4239. We explain available options clearly and provide upfront estimates."
+        subheading="Call C Ford Electric at (405) 654-8819. We explain available options clearly and provide upfront estimates."
       />
     </>
   );

@@ -56,7 +56,7 @@ const HOW_STEPS = [
   {
     icon: Phone,
     title: 'Call C Ford Electric',
-    body: 'Call (405) 326-4239 and tell us what you are experiencing — a repair, an installation, or a larger project.',
+    body: 'Call (405) 654-8819 and tell us what you are experiencing — a repair, an installation, or a larger project.',
   },
   {
     icon: Wrench,
@@ -109,7 +109,7 @@ const HOME_FAQS = [
   },
   {
     q: 'How do I schedule electrical work?',
-    a: 'Call us at (405) 326-4239. We do not offer online booking — all scheduling and service availability is discussed directly by phone.',
+    a: 'Call us at (405) 654-8819. We do not offer online booking — all scheduling and service availability is discussed directly by phone.',
   },
   {
     q: 'Do you offer free consultations?',

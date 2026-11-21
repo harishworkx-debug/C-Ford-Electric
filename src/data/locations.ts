@@ -26,9 +26,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homeowners and businesses throughout Oklahoma City, Oklahoma. From our location on SE 74th St, we serve neighborhoods across the city — from downtown and Bricktown to the suburbs of south, west, and north Oklahoma City.',
     local:
       'Oklahoma City covers a large geographic area, and its housing stock ranges from pre-1950s homes in the core to new construction on the edges. Older homes often need panel upgrades, grounding updates, and rewiring, while newer homes are more likely to need EV charger circuits, additional outlets, and lighting installations. C Ford Electric handles the full range across the city.',
-    metaTitle: 'Electrician Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Oklahoma City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'C Ford Electric is an Oklahoma City, OK electrician providing residential and commercial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 326-4239.',
+      'C Ford Electric is an Oklahoma City, OK electrician providing residential and commercial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve all of Oklahoma City?',
@@ -54,9 +54,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Newcastle, Oklahoma. As an electrician serving both Newcastle and Oklahoma City, we handle repairs, installations, panel upgrades, wiring, and lighting for the Newcastle community.',
     local:
       'Newcastle has seen steady residential growth, which means a mix of established homes needing electrical updates and newer construction requiring additions like EV chargers, extra outlets, and lighting. C Ford Electric supports both — from panel and wiring upgrades in older homes to new circuits and fixtures in recently built properties.',
-    metaTitle: 'Electrician Newcastle OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Newcastle OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Newcastle, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Newcastle, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Newcastle, OK?',
@@ -82,9 +82,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Del City, Oklahoma. Located just southeast of Oklahoma City, Del City is close to our home base and well within our regular service area.',
     local:
       'Del City has a mix of mid-century homes and newer builds. Many of the older homes in Del City benefit from panel upgrades, additional grounded outlets, and updated lighting, while newer properties often need added circuits for modern appliances and EV chargers. We handle the full range for Del City residents and businesses.',
-    metaTitle: 'Electrician Del City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Del City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Del City, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Del City, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Del City?',
@@ -110,9 +110,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Midwest City, Oklahoma. Adjacent to Tinker Air Force Base and just east of Oklahoma City, Midwest City is a regular part of our service area.',
     local:
       'Midwest City has a strong base of post-war and mid-century homes near the base, along with newer construction on the east side. The older homes frequently need panel upgrades, grounded outlet additions, and rewiring work, while newer homes tend to need added capacity for modern loads. C Ford Electric handles both.',
-    metaTitle: 'Electrician Midwest City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Midwest City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Midwest City, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Midwest City, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Midwest City?',
@@ -138,9 +138,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Moore, Oklahoma. Located directly south of Oklahoma City, Moore is a regular part of our metro service area.',
     local:
       'Moore has experienced significant rebuilding and new construction following past tornado events, alongside established neighborhoods that predate them. We support both — from new construction electrical and added circuits in rebuilt homes to panel and wiring upgrades in older Moore properties.',
-    metaTitle: 'Electrician Moore OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Moore OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Moore, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Moore, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Moore, OK?',
@@ -166,9 +166,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Edmond, Oklahoma. Located just north of Oklahoma City, Edmond is part of our regular metro service area and includes a range of established and newer residential properties.',
     local:
       'Edmond includes both established neighborhoods with homes built in the 1970s through 1990s and newer construction on the north and east sides. The older areas commonly need panel upgrades, grounding updates, and additional outlets, while the newer areas frequently need EV charger circuits, lighting installations, and additional capacity for modern appliances.',
-    metaTitle: 'Electrician Edmond OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Edmond OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Edmond, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 326-4239.',
+      'Electrician serving Edmond, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Edmond, OK?',
@@ -194,9 +194,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Norman, Oklahoma. Located south of Oklahoma City and home to the University of Oklahoma, Norman is part of our regular metro service area.',
     local:
       "Norman has a diverse housing stock that ranges from historic homes near the university to newer subdivisions on the city's edges. The older university-area homes often need grounding updates, panel upgrades, and rewiring, while newer construction typically needs added circuits, lighting, and dedicated appliance circuits. C Ford Electric handles the full range.",
-    metaTitle: 'Electrician Norman OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Norman OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Norman, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 326-4239.',
+      'Electrician serving Norman, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, wiring, and lighting. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Norman, OK?',
@@ -222,9 +222,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Choctaw, Oklahoma. Located east of Oklahoma City in eastern Oklahoma County, Choctaw is part of our metro service area.',
     local:
       'Choctaw is a primarily residential community with a mix of established homes and newer construction. Properties in the established areas frequently need panel upgrades and additional outlets, while newer builds often require added circuits for modern loads, lighting installations, and exterior work like garages and workshops.',
-    metaTitle: 'Electrician Choctaw OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Choctaw OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Choctaw, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Choctaw, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Choctaw, OK?',
@@ -250,9 +250,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Spencer, Oklahoma. Located east of Oklahoma City, Spencer is part of our regular metro service area.',
     local:
       'Spencer is a smaller, primarily residential community with many mid-century homes. These properties frequently need grounding updates, panel upgrades, and additional outlets to support modern loads. C Ford Electric handles repairs, installations, and upgrades for Spencer residents.',
-    metaTitle: 'Electrician Spencer OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Spencer OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Spencer, OK. C Ford Electric provides residential electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Spencer, OK. C Ford Electric provides residential electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Spencer, OK?',
@@ -278,9 +278,9 @@ export const LOCATIONS: Location[] = [
       'C Ford Electric provides electrical services to homes and businesses in Yukon, Oklahoma. Located west of Oklahoma City, Yukon is a growing community that is part of our regular metro service area.',
     local:
       'Yukon has experienced significant residential growth, creating a mix of established homes and new construction. The established properties often need panel and wiring upgrades, while newer homes typically need added circuits, lighting installations, and EV charger circuits. C Ford Electric handles both.',
-    metaTitle: 'Electrician Yukon OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrician Yukon OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrician serving Yukon, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 326-4239.',
+      'Electrician serving Yukon, OK. C Ford Electric provides residential and commercial electrical repair, installation, panel upgrades, and wiring. Call (405) 654-8819.',
     faqs: [
       {
         q: 'Do you serve Yukon, OK?',

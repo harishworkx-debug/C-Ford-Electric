@@ -7,8 +7,8 @@ export const LANDING_DATA = {
   heroHeadline: 'Electrician in Oklahoma City, OK',
   heroSubheadline:
     'Licensed Master Electrician providing dependable residential and commercial electrical repairs, 200A panel upgrades, EV chargers, and wiring throughout the Oklahoma City metro.',
-  phoneDisplay: '(405) 326-4239',
-  phoneHref: 'tel:+14053264239',
+  phoneDisplay: '(405) 654-8819',
+  phoneHref: 'tel:+14056548819',
   address: {
     street: '6209 SE 74th St',
     city: 'Oklahoma City',
@@ -164,7 +164,7 @@ export const LANDING_DATA = {
     },
     {
       q: 'How do I schedule service with an electrician in Oklahoma City?',
-      a: 'Direct scheduling is handled by calling (405) 326-4239. You can also submit the request form on this page with details about your project, and we will follow up promptly to discuss availability.',
+      a: 'Direct scheduling is handled by calling (405) 654-8819. You can also submit the request form on this page with details about your project, and we will follow up promptly to discuss availability.',
     },
   ],
 } as const;

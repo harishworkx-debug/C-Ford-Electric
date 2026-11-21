@@ -3,8 +3,8 @@ export const SITE = {
   legalName: 'C Ford Electric LLC',
   domain: 'www.cfordelectric.net',
   url: 'https://www.cfordelectric.net',
-  phoneDisplay: '(405) 326-4239',
-  phoneHref: 'tel:+14053264239',
+  phoneDisplay: '(405) 654-8819',
+  phoneHref: 'tel:+14056548819',
   email: '',
   address: {
     street: '6209 SE 74th St',

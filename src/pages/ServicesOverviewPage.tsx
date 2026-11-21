@@ -26,7 +26,7 @@ export function ServicesOverviewPage() {
   useSeo({
     title: 'Electrical Services Oklahoma City, OK | C Ford Electric',
     description:
-      'Looking for electrical services in Oklahoma City? C Ford Electric provides residential, commercial, and industrial electrical repairs, panel upgrades, wiring, and installations. Call (405) 326-4239.',
+      'Looking for electrical services in Oklahoma City? C Ford Electric provides residential, commercial, and industrial electrical repairs, panel upgrades, wiring, and installations. Call (405) 654-8819.',
     path: '/services',
     jsonLd: [breadcrumbJsonLd([{ name: 'Electrical Services', href: '/services' }])],
   });

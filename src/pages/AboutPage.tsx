@@ -24,7 +24,7 @@ const VALUES = [
   {
     icon: Phone,
     title: 'Talk to a real electrician',
-    body: 'No call centers, no online forms. When you call (405) 326-4239 you speak directly with the business about your electrical project.',
+    body: 'No call centers, no online forms. When you call (405) 654-8819 you speak directly with the business about your electrical project.',
   },
   {
     icon: Building2,

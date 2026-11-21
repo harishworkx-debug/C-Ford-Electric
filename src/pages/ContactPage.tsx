@@ -7,9 +7,9 @@ import { CallButton } from '@/components/CallButton';
 
 export function ContactPage() {
   useSeo({
-    title: 'Contact C Ford Electric | Oklahoma City Electricians | (405) 326-4239',
+    title: 'Contact C Ford Electric | Oklahoma City Electricians | (405) 654-8819',
     description:
-      'Contact C Ford Electric in Oklahoma City, OK. Call (405) 326-4239 for electrical service across the Oklahoma City metro. Located at 6209 SE 74th St, Oklahoma City, OK 73135.',
+      'Contact C Ford Electric in Oklahoma City, OK. Call (405) 654-8819 for electrical service across the Oklahoma City metro. Located at 6209 SE 74th St, Oklahoma City, OK 73135.',
     path: '/contact',
     jsonLd: [
       localBusinessJsonLd,

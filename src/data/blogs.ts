@@ -66,7 +66,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'When to Call a Professional Electrician',
         body: [
-          'Never replace a breaker with a higher amperage fuse or tape down a breaker switch. If you notice burning smells, buzzing sounds from your panel, or breakers that refuse to reset, turn off the main switch and [contact C Ford Electric](/contact) at (405) 326-4239.',
+          'Never replace a breaker with a higher amperage fuse or tape down a breaker switch. If you notice burning smells, buzzing sounds from your panel, or breakers that refuse to reset, turn off the main switch and [contact C Ford Electric](/contact) at (405) 654-8819.',
         ],
       },
     ],
@@ -182,7 +182,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Schedule an Electrical Safety Inspection',
         body: [
-          'If you are buying an older Oklahoma home or have concerns about your wiring, [request an electrical inspection](/contact) with C Ford Electric at (405) 326-4239.',
+          'If you are buying an older Oklahoma home or have concerns about your wiring, [request an electrical inspection](/contact) with C Ford Electric at (405) 654-8819.',
         ],
       },
     ],
@@ -228,7 +228,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: 'Contact Us for Fast Troubleshooting',
         body: [
-          'Don’t ignore persistent light flickering. Call C Ford Electric at (405) 326-4239 or [contact us online](/contact) to schedule a service visit.',
+          'Don’t ignore persistent light flickering. Call C Ford Electric at (405) 654-8819 or [contact us online](/contact) to schedule a service visit.',
         ],
       },
     ],

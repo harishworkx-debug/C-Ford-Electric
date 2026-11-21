@@ -145,7 +145,7 @@ export function BlogOverviewPage() {
 
       <CallCtaSection
         heading="Have an electrical question or need an inspection?"
-        subheading="Call C Ford Electric at (405) 326-4239 to speak directly with an Oklahoma City electrician."
+        subheading="Call C Ford Electric at (405) 654-8819 to speak directly with an Oklahoma City electrician."
       />
     </>
   );

@@ -31,7 +31,7 @@ export const SERVICES: Service[] = [
     h1: 'Professional Electrical Repair Services in Oklahoma City',
     metaTitle: 'Electrical Repair in Oklahoma City, OK | C Ford Electric',
     metaDescription:
-      'Looking for professional electrical repair in Oklahoma City, OK? C Ford Electric handles circuit breaker problems, flickering lights, faulty outlets, and wiring troubleshooting. Call (405) 326-4239.',
+      'Looking for professional electrical repair in Oklahoma City, OK? C Ford Electric handles circuit breaker problems, flickering lights, faulty outlets, and wiring troubleshooting. Call (405) 654-8819.',
     intro:
       'When outlets stop working, breakers keep tripping, or lights flicker without explanation, C Ford Electric provides professional electrical repair services throughout Oklahoma City. Our licensed electricians diagnose the root cause and complete code-compliant repairs to ensure your home or business remains safe and dependable.',
     problems: [
@@ -60,7 +60,7 @@ export const SERVICES: Service[] = [
       'Common electrical problems rarely resolve on their own. Recurring circuit breaker trips, warm outlets, and flickering lights usually indicate deeper system strain or aging wiring that demands immediate attention from a qualified electrician rather than temporary workarounds.',
       'Electrical troubleshooting requires systematic diagnosis. At C Ford Electric, we inspect every component along the affected branch circuit — from the main panel breaker and intermediate junction boxes to end receptacles — pinpointing the exact failure point without guesswork.',
       'Wiring concerns such as loose terminations, overloaded circuits, or degraded insulation present serious fire hazards. If your existing panel cannot handle your modern household or commercial electrical load, our team can evaluate whether [Electrical Panel Upgrade Services](/electrical-panel-upgrade-{locationSlug}) are recommended to permanently resolve recurring breaker trips.',
-      'Knowing when to contact a professional electrician is vital for personal safety. If you detect burning smells, notice sparks from an outlet, or experience persistent breaker trips, shut off the circuit at the panel and contact C Ford Electric immediately at (405) 326-4239 or [request an estimate](/contact).',
+      'Knowing when to contact a professional electrician is vital for personal safety. If you detect burning smells, notice sparks from an outlet, or experience persistent breaker trips, shut off the circuit at the panel and contact C Ford Electric immediately at (405) 654-8819 or [request an estimate](/contact).',
     ],
     faqs: [
       {
@@ -89,9 +89,9 @@ export const SERVICES: Service[] = [
     category: 'General',
     image: 'installBulb',
     h1: 'Electrical Installation in Oklahoma City, OK',
-    metaTitle: 'Electrical Installation Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrical Installation Oklahoma City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Professional electrical installation in Oklahoma City, OK — outlets, switches, fixtures, circuits, and devices. C Ford Electric installs it right. Call (405) 326-4239.',
+      'Professional electrical installation in Oklahoma City, OK — outlets, switches, fixtures, circuits, and devices. C Ford Electric installs it right. Call (405) 654-8819.',
     intro:
       'From a new outlet in the garage to a full circuit run for a kitchen remodel, C Ford Electric handles electrical installation work for homes and businesses throughout Oklahoma City. Every installation is sized, wired, and grounded to code.',
     problems: [
@@ -118,7 +118,7 @@ export const SERVICES: Service[] = [
     detail: [
       'Proper installation matters. An outlet wired with reversed polarity, a fixture box that is not rated for its weight, or a circuit that is oversized for its wire can all create hidden hazards. C Ford Electric installs every device, dedicated circuit, and appliance branch to current Oklahoma electrical code the first time.',
       'We install outlets, switches, light fixtures, ceiling fans, 240V appliance circuits, EV charger hookups, and exterior circuits for residential and commercial properties. If you are adding modern high-draw fixtures or appliances, we also coordinate with [Lighting Installation](/lighting-installation-{locationSlug}) and evaluate whether an [Electrical Panel Upgrade](/electrical-panel-upgrade-{locationSlug}) is needed to support the increased electrical load.',
-      'Every installation is thoroughly tested under load, grounded to NEC standards, and clearly labeled in your breaker box. Contact Glenn Ford at (405) 326-4239 or [request an estimate](/contact) to schedule your installation.',
+      'Every installation is thoroughly tested under load, grounded to NEC standards, and clearly labeled in your breaker box. Contact Glenn Ford at (405) 654-8819 or [request an estimate](/contact) to schedule your installation.',
     ],
     faqs: [
       {
@@ -145,7 +145,7 @@ export const SERVICES: Service[] = [
     h1: 'Electrical Panel Upgrade Services in Oklahoma City',
     metaTitle: 'Electrical Panel Upgrades Oklahoma City, OK | C Ford Electric',
     metaDescription:
-      'Upgrade your electrical panel in Oklahoma City, OK. C Ford Electric evaluates panel capacity, replaces outdated fuse boxes, and installs modern 200A breaker panels. Call (405) 326-4239.',
+      'Upgrade your electrical panel in Oklahoma City, OK. C Ford Electric evaluates panel capacity, replaces outdated fuse boxes, and installs modern 200A breaker panels. Call (405) 654-8819.',
     intro:
       'An electrical panel plays an important role in distributing electricity throughout your property. If your electrical system struggles to handle modern appliances, experiences recurring breaker issues or requires additional capacity, an electrical panel evaluation may be appropriate. C Ford Electric can explain available electrical upgrade options and help property owners understand the requirements for their project.',
     problems: [
@@ -201,7 +201,7 @@ export const SERVICES: Service[] = [
     h1: 'Electrical Wiring Services in Oklahoma City, OK',
     metaTitle: 'Electrical Wiring Services Oklahoma City | C Ford Electric',
     metaDescription:
-      'Reliable electrical wiring services in Oklahoma City, OK. C Ford Electric handles wiring repair, whole-home rewiring, additions, and code-compliant installations. Call (405) 326-4239.',
+      'Reliable electrical wiring services in Oklahoma City, OK. C Ford Electric handles wiring repair, whole-home rewiring, additions, and code-compliant installations. Call (405) 654-8819.',
     intro:
       'C Ford Electric provides comprehensive electrical wiring services for homes, additions, remodels, and commercial properties throughout Oklahoma City. From targeted electrical wiring repair in OKC to whole-home rewiring, our licensed electricians ensure every circuit is properly sized, grounded, and code-compliant.',
     problems: [
@@ -255,7 +255,7 @@ export const SERVICES: Service[] = [
     h1: 'Light Fixture Installation in Oklahoma City, OK',
     metaTitle: 'Light Fixture Installation Oklahoma City | C Ford Electric',
     metaDescription:
-      'Professional light fixture installation in Oklahoma City, OK. C Ford Electric installs recessed lighting, interior fixtures, exterior security lights, and LED upgrades. Call (405) 326-4239.',
+      'Professional light fixture installation in Oklahoma City, OK. C Ford Electric installs recessed lighting, interior fixtures, exterior security lights, and LED upgrades. Call (405) 654-8819.',
     intro:
       'C Ford Electric provides expert light fixture installation and lighting upgrades for homes and commercial facilities across Oklahoma City. From modern recessed can lighting to exterior security lights and commercial fixture layouts, we manage all wiring, mounting, and switching.',
     problems: [
@@ -309,7 +309,7 @@ export const SERVICES: Service[] = [
     h1: 'Residential Electrician in Oklahoma City, OK',
     metaTitle: 'Residential Electrician Oklahoma City | C Ford Electric',
     metaDescription:
-      'Trusted residential electrician in Oklahoma City, OK. C Ford Electric handles home electrical repairs, installations, panel upgrades, wiring, and lighting. Call (405) 326-4239.',
+      'Trusted residential electrician in Oklahoma City, OK. C Ford Electric handles home electrical repairs, installations, panel upgrades, wiring, and lighting. Call (405) 654-8819.',
     intro:
       'C Ford Electric is a trusted residential electrician serving homeowners across the Oklahoma City metro. From troubleshooting faulty outlets and upgrading outdated panels to complete home rewiring and lighting installations, we deliver dependable residential electrical work.',
     problems: [
@@ -336,7 +336,7 @@ export const SERVICES: Service[] = [
     detail: [
       'Homeowners across Oklahoma City count on C Ford Electric for residential electrical services executed with master-level craftsmanship. We handle the entire spectrum of residential electrical needs — from troubleshooting flickering lights and dead outlets to complete home rewires and service upgrades.',
       'Whether you live in an established neighborhood with aging wiring or a newer home requiring a dedicated circuit for an electric vehicle, hot tub, or induction range, we deliver dependable workmanship tailored to your home’s electrical layout.',
-      'Our residential services integrate seamlessly with [Electrical Repair](/electrical-repair-{locationSlug}) for diagnostic troubleshooting, and [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}) when expanding your household electrical capacity. Call (405) 326-4239 or [contact C Ford Electric](/contact) for a free project consultation.',
+      'Our residential services integrate seamlessly with [Electrical Repair](/electrical-repair-{locationSlug}) for diagnostic troubleshooting, and [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}) when expanding your household electrical capacity. Call (405) 654-8819 or [contact C Ford Electric](/contact) for a free project consultation.',
     ],
     faqs: [
       {
@@ -363,7 +363,7 @@ export const SERVICES: Service[] = [
     h1: 'Commercial Electrical Contractor in Oklahoma City',
     metaTitle: 'Commercial Electrician Oklahoma City, OK | C Ford Electric',
     metaDescription:
-      'Licensed commercial electrical contractor in Oklahoma City, OK. C Ford Electric specializes in commercial installations, tenant improvements, electrical distribution, and maintenance. Call (405) 326-4239.',
+      'Licensed commercial electrical contractor in Oklahoma City, OK. C Ford Electric specializes in commercial installations, tenant improvements, electrical distribution, and maintenance. Call (405) 654-8819.',
     intro:
       'C Ford Electric is a licensed commercial electrical contractor in Oklahoma City. We provide commercial electrical installations, maintenance, troubleshooting, electrical distribution systems, and tenant improvement projects for businesses across the Oklahoma City metro area.',
     problems: [
@@ -416,9 +416,9 @@ export const SERVICES: Service[] = [
     category: 'General',
     image: 'greenBoxes',
     h1: 'New Construction Electrical in Oklahoma City, OK',
-    metaTitle: 'New Construction Electrical Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'New Construction Electrical Oklahoma City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'New construction electrical in Oklahoma City, OK. C Ford Electric handles full rough-in and finish work for new homes and commercial buildings. Call (405) 326-4239.',
+      'New construction electrical in Oklahoma City, OK. C Ford Electric handles full rough-in and finish work for new homes and commercial buildings. Call (405) 654-8819.',
     intro:
       'C Ford Electric provides complete new construction electrical work for residential and commercial builds throughout the Oklahoma City metro. From rough-in to final trim, we install every system to code.',
     problems: [
@@ -469,9 +469,9 @@ export const SERVICES: Service[] = [
     category: 'General',
     image: 'outdoorPanel',
     h1: 'Electrical Safety Inspections in Oklahoma City, OK',
-    metaTitle: 'Electrical Safety Inspection Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Electrical Safety Inspection Oklahoma City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Electrical safety inspection in Oklahoma City, OK. C Ford Electric inspects panels, wiring, grounding, and devices for homes and businesses. Call (405) 326-4239.',
+      'Electrical safety inspection in Oklahoma City, OK. C Ford Electric inspects panels, wiring, grounding, and devices for homes and businesses. Call (405) 654-8819.',
     intro:
       'C Ford Electric provides electrical safety inspections for homes and businesses in the Oklahoma City metro. Whether you are buying a home, planning an upgrade, or just want peace of mind, we give you a clear picture of your electrical system.',
     problems: [
@@ -498,7 +498,7 @@ export const SERVICES: Service[] = [
     detail: [
       'A comprehensive electrical safety inspection is one of the most critical steps before purchasing a property, remodeling an older Oklahoma home, or insuring commercial facilities. C Ford Electric inspects the service drop, meter base, breaker panel, grounding electrodes, branch circuit wiring, and safety devices (GFCI/AFCI).',
       'We operate with complete honesty — we never fabricate problems. If your system is safe and code-compliant, we confirm it. If hazards exist, such as obsolete fuse boxes, ungrounded circuits, or loose terminations, we explain them clearly and outline recommended solutions.',
-      'If safety issues are uncovered, our team can perform necessary [Electrical Troubleshooting](/electrical-repair-{locationSlug}) or implement an [Electrical Panel Upgrade](/electrical-panel-upgrade-{locationSlug}) to bring your property into full compliance. Contact C Ford Electric at (405) 326-4239 or [schedule an inspection](/contact).',
+      'If safety issues are uncovered, our team can perform necessary [Electrical Troubleshooting](/electrical-repair-{locationSlug}) or implement an [Electrical Panel Upgrade](/electrical-panel-upgrade-{locationSlug}) to bring your property into full compliance. Contact C Ford Electric at (405) 654-8819 or [schedule an inspection](/contact).',
     ],
     faqs: [
       {
@@ -523,9 +523,9 @@ export const SERVICES: Service[] = [
     category: 'General',
     image: 'outdoorFusebox',
     h1: 'Electrical Storm Damage Repair in Oklahoma City, OK',
-    metaTitle: 'Storm Damage Electrical Repair Oklahoma City OK | C Ford Electric | (405) 326-4239',
+    metaTitle: 'Storm Damage Electrical Repair Oklahoma City OK | C Ford Electric | (405) 654-8819',
     metaDescription:
-      'Storm damaged your electrical service? C Ford Electric repairs storm-damaged entrances, panels, and wiring in Oklahoma City, OK. Call (405) 326-4239.',
+      'Storm damaged your electrical service? C Ford Electric repairs storm-damaged entrances, panels, and wiring in Oklahoma City, OK. Call (405) 654-8819.',
     intro:
       'Oklahoma storms can damage service entrances, meter bases, panels, and wiring. C Ford Electric repairs storm-damaged electrical systems for homes and businesses throughout the Oklahoma City metro area.',
     problems: [
@@ -552,7 +552,7 @@ export const SERVICES: Service[] = [
     detail: [
       'Oklahoma’s severe weather — high winds, hail, fallen tree limbs, and lightning strikes — frequently compromises electrical service infrastructure before power even reaches your interior panel. Torn weatherheads, severed service drops, ripped meter cans, and lightning power surges represent urgent hazards.',
       'C Ford Electric specializes in storm damage electrical restoration. We replace damaged service masts, re-secure meter bases, rebuild damaged panels, and coordinate directly with local utilities (like OG&E) to ensure inspections pass quickly and power is safely restored.',
-      'If your panel was damaged by a lightning strike or voltage spike, we provide emergency [Electrical Repair](/electrical-repair-{locationSlug}) and [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}) to protect your property from subsequent electrical fires. Call (405) 326-4239 immediately or [contact us online](/contact).',
+      'If your panel was damaged by a lightning strike or voltage spike, we provide emergency [Electrical Repair](/electrical-repair-{locationSlug}) and [Electrical Panel Upgrades](/electrical-panel-upgrade-{locationSlug}) to protect your property from subsequent electrical fires. Call (405) 654-8819 immediately or [contact us online](/contact).',
     ],
     faqs: [
       {

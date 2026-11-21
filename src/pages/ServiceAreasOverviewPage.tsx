@@ -15,7 +15,7 @@ export function ServiceAreasOverviewPage() {
   useSeo({
     title: 'Service Areas | C Ford Electric | Oklahoma City Metro Electricians',
     description:
-      'C Ford Electric serves Oklahoma City, Newcastle, Del City, Midwest City, Moore, and the surrounding Oklahoma City metro area. Call (405) 326-4239 for electrical service.',
+      'C Ford Electric serves Oklahoma City, Newcastle, Del City, Midwest City, Moore, and the surrounding Oklahoma City metro area. Call (405) 654-8819 for electrical service.',
     path: '/service-areas',
     jsonLd: [breadcrumbJsonLd([{ name: 'Service Areas', href: '/service-areas' }])],
   });
